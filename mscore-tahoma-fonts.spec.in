@@ -4,7 +4,7 @@
 Summary:   Microsoft core Tahoma fonts for better Windows Compatibility
 Name:      %{fontname}-tahoma-fonts
 Version:   1.0
-Release:   1%{?dist}
+Release:   3%{?dist}
 
 URL:       http://mscorefonts2.sourceforge.net/
 License:   non-redistributable, no modifications permitted
@@ -55,6 +55,12 @@ ln -s %{_fontconfig_templatedir}/$basename \
 
 
 %changelog
+* Sun Nov 07 2021 Sérgio Basto <sergio@serjux.com> - 1.0-3
+- retag it again
+
+* Sun Nov 07 2021 Sérgio Basto <sergio@serjux.com> - 1.0-2
+- bump
+
 * Fri Feb 14 2014 Alec Leamas <leamas.alec@gmail.com> - 1.0-1
 - Updated description, downplaying usefullness.
 - Lower config file priority (55 -> 61).
