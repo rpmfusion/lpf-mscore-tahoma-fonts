@@ -3,7 +3,7 @@
 
 Name:           lpf-mscore-tahoma-fonts
 Version:        1.0
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Bootstrap package building mscore-tahoma-fonts using lpf
 
 License:        MIT
@@ -54,6 +54,9 @@ mscore-tahoma-fonts non-redistributable package.
 
 
 %changelog
+* Sun Feb 19 2023 Leigh Scott <leigh123linux@gmail.com> - 1.0-4
+- Bump
+
 * Sun Nov 07 2021 Sérgio Basto <sergio@serjux.com> - 1.0-3
 - retag it again
 
