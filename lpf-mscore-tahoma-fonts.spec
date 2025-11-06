@@ -34,7 +34,7 @@ mscore-tahoma-fonts non-redistributable package.
 
 %install
 # lpf-setup-pkg [-e eula] <topdir> <specfile> [sources...]
-/usr/share/lpf/scripts/lpf-setup-pkg -e %{SOURCE1} %{buildroot} %{SOURCE0} \
+%{_datadir}/lpf/scripts/lpf-setup-pkg -e %{SOURCE1} %{buildroot} %{SOURCE0} \
     %{SOURCE2}
 
 
